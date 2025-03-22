@@ -1,0 +1,17 @@
+[package]
+name = "BasicMath"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "basic"
+path = "src/basic/bin/main.rs"
+
+[[bin]]
+name = "advanced"
+path = "src/advanced/bin/main.rs"
+
